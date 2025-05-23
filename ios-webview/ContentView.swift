@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-      WebView(url: URL(string: "http://192.168.68.52:3000")!).ignoresSafeArea(edges: .all)
+      WebView(url: URL(string: "http://127.0.0.1:3000")!).ignoresSafeArea(edges: .all)
     }
 }
 
